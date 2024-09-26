@@ -1,0 +1,14 @@
+body {
+    font-family: zero;
+    margin: 0;
+}
+
+header {
+    background-color: var(--adittional-color);
+    padding: 25px 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}

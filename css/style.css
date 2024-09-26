@@ -1,10 +1,16 @@
-:root {
-    --main-color: #343188;
-    --adittional-color: #ffac31;
+
+
+body{
+    font-family: zero;
+    margin: 0;
 }
 
-.container{
-    width: 1200px;
-    padding: 0 15px;
-    margin: 0 auto;
+header{
+    background-color: var(--adittional-color);
+    padding: 25px 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
 }

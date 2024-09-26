@@ -1,0 +1,10 @@
+:root {
+    --main-color: #343188;
+    --adittional-color: #ffac31;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
