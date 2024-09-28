@@ -14,3 +14,9 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
+.map{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
