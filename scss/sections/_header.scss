@@ -1,0 +1,12 @@
+.header {
+    padding: 36px 0;
+    background-color: #FFB23F;
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        color: #343188;
+        font-size: 20px;
+        font-weight: 800;
+    }
+}
