@@ -2,4 +2,13 @@
   max-width: 1043px;
   margin: 0 auto;
   padding: 0 10px;
+}
+
+.magazines {
+  background-image: url(../img/swork-bg.jpg);
+  padding: 243.5px 0;
+  background-size: cover;
+}
+.magazines h1 {
+  color: green;
 }/*# sourceMappingURL=main.css.map */
