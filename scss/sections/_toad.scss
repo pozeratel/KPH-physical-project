@@ -1,0 +1,25 @@
+
+@font-face{
+    font-family: "v_DigitalStrip";
+    src: url(../fonts/v_DigitalStrip.ttf);
+}
+
+
+.magazines{
+    position: relative;
+    background-image: url(../img/swork-bg.jpg);
+    padding:370px 0;
+    background-size: cover;
+
+    h1{
+        text-align: center;
+        width: 423px;
+        font-weight: 400;
+        font-size: 40px;
+        font-family: "v_DigitalStrip";
+        line-height: normal;
+        position: absolute;
+        top:330px;
+        left: 520px;
+    }
+}

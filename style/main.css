@@ -34,11 +34,62 @@ img {
   padding: 0;
 }
 
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Rounded Mplus 1c;
 }
+
+
+@font-face {
+  font-family: "v_DigitalStrip";
+  src: url(../fonts/v_DigitalStrip.ttf);
+}
+.magazines {
+  position: relative;
+  background-image: url(../img/swork-bg.jpg);
+  padding: 370px 0;
+  background-size: cover;
+}
+.magazines h1 {
+  text-align: center;
+  width: 423px;
+  font-weight: 400;
+  font-size: 40px;
+  font-family: "v_DigitalStrip";
+  line-height: normal;
+  position: absolute;
+  top: 330px;
+  left: 520px;
+}
+
+.card {
+  padding: 128px 0 142px 0;
+}
+.card__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+.card__buttons button {
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  background-color: #FFB23F;
+  padding: 78px 23px 73px 23px;
+  width: 769px;
+  border-radius: 15px;
+  border: solid 2px #FFB23F;
+}
+.card__buttons button:hover {
+  background-color: white;
+  color: #FFB23F;
+  border: solid 2px #FFB23F;
+  cursor: pointer;
 
 .header {
   padding: 36px 0;
@@ -54,4 +105,5 @@ body {
   color: #343188;
   font-size: 20px;
   font-weight: 800;
+
 }/*# sourceMappingURL=main.css.map */
