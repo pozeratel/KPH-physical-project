@@ -1,0 +1,25 @@
+.card{
+    padding: 128px 0 142px 0;
+    &__buttons{
+        display: flex;
+        column-gap: 50px;
+        button{
+            color: white;
+            font-weight: 800;
+            font-size: 20px;
+            background-color: #FFB23F;
+            padding: 78px 23px 73px 23px;
+            width: 769px;
+            border-radius: 15px;
+            border: solid 2px #FFB23F ;
+        }
+        button:hover{
+            background-color: white;
+            color: #FFB23F;
+            border: solid 2px #FFB23F ;
+            cursor: pointer;
+
+        }
+
+    }
+}
