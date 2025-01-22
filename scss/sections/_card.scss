@@ -2,14 +2,14 @@
     padding: 128px 0 142px 0;
     &__buttons{
         display: flex;
-        column-gap: 50px;
+        justify-content: space-evenly;
         button{
             color: white;
             font-weight: 800;
             font-size: 20px;
             background-color: #FFB23F;
             padding: 78px 23px 73px 23px;
-            width: 769px;
+            width: 269px;
             border-radius: 15px;
             border: solid 2px #FFB23F ;
         }
@@ -20,6 +20,36 @@
             cursor: pointer;
 
         }
+
+    }
+    &__cards{
+        margin-top: 150px;
+        display: flex;
+        flex-wrap: wrap;
+        &__worksPhysics{
+            background-color: #D9D9D9;
+            border: solid 1px #000000;
+            border-radius: 15px;
+            padding: 21px 22px 7px 22px;
+            margin: 25px 25px;
+            button{
+                justify-content: end;
+                text-align: right;
+                background-color: #FFB23F;
+                border-radius: 10px 10px 15px 10px;
+                width: 28%;
+                border: solid 1px #000000;
+            }
+            h1{
+                color: #000000;
+               font-weight: 800;
+               font-size: 16px;
+                margin-top: 5px;
+            }
+
+
+        }
+        
 
     }
 }

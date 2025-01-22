@@ -1,5 +1,5 @@
 .container {
-  max-width: 1043px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -25,7 +25,6 @@ p {
 img {
   display: block;
   height: auto;
-  width: 100%;
   max-width: 100%;
 }
 
@@ -85,9 +84,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 50px;
-     -moz-column-gap: 50px;
-          column-gap: 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 .card__buttons button {
   color: white;
@@ -95,7 +94,7 @@ body {
   font-size: 20px;
   background-color: #FFB23F;
   padding: 78px 23px 73px 23px;
-  width: 769px;
+  width: 269px;
   border-radius: 15px;
   border: solid 2px #FFB23F;
 }
@@ -104,4 +103,52 @@ body {
   color: #FFB23F;
   border: solid 2px #FFB23F;
   cursor: pointer;
+
+}
+.card__cards {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.card__cards__worksPhysics {
+  background-color: #D9D9D9;
+  border: solid 1px #000000;
+  border-radius: 15px;
+  padding: 21px 22px 7px 22px;
+  margin: 25px 25px;
+}
+.card__cards__worksPhysics button {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  text-align: right;
+  background-color: #FFB23F;
+  border-radius: 10px 10px 15px 10px;
+  width: 28%;
+  border: solid 1px #000000;
+}
+.card__cards__worksPhysics h1 {
+  color: #000000;
+  font-weight: 800;
+  font-size: 16px;
+  margin-top: 5px;
+=======
+
+.header {
+  padding: 36px 0;
+  background-color: #FFB23F;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #343188;
+  font-size: 20px;
+  font-weight: 800;
 }/*# sourceMappingURL=main.css.map */
