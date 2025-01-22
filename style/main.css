@@ -28,11 +28,18 @@ img {
   max-width: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-family: Rounded Mplus 1c;
 }
+
 
 @font-face {
   font-family: "v_DigitalStrip";
@@ -82,6 +89,7 @@ body {
   color: #FFB23F;
   border: solid 2px #FFB23F;
   cursor: pointer;
+<<<<<<< HEAD
 }
 .card__cards {
   margin-top: 150px;
@@ -113,4 +121,22 @@ body {
   font-weight: 800;
   font-size: 16px;
   margin-top: 5px;
+=======
+
+.header {
+  padding: 36px 0;
+  background-color: #FFB23F;
+}
+.header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #343188;
+  font-size: 20px;
+  font-weight: 800;
+
+>>>>>>> f66236182dc0b8915dec9c30cd78fe8f3d5d77c9
 }/*# sourceMappingURL=main.css.map */
