@@ -27,12 +27,14 @@
         display: flex;
         flex-wrap: wrap;
         &__worksPhysics{
-            color: #D9D9D9;
+            background-color: #D9D9D9;
             border: solid 1px #000000;
             border-radius: 15px;
             padding: 21px 22px 7px 22px;
             margin: 25px 25px;
             button{
+                justify-content: end;
+                text-align: right;
                 background-color: #FFB23F;
                 border-radius: 10px 10px 15px 10px;
                 width: 28%;

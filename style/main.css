@@ -92,13 +92,17 @@ body {
       flex-wrap: wrap;
 }
 .card__cards__worksPhysics {
-  color: #D9D9D9;
+  background-color: #D9D9D9;
   border: solid 1px #000000;
   border-radius: 15px;
   padding: 21px 22px 7px 22px;
   margin: 25px 25px;
 }
 .card__cards__worksPhysics button {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  text-align: right;
   background-color: #FFB23F;
   border-radius: 10px 10px 15px 10px;
   width: 28%;
